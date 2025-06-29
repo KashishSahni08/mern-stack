@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Show</title>
+</head>
+<body>
+
+  <h1>Book Your Show</h1>
+
+  <form>
+    <label for="movie">Select Movie:</label><br>
+    <select id="movie" name="movie">
+      <option value="oppenheimer">Oppenheimer</option>
+      <option value="barbie">Barbie</option>
+      <option value="spiderman">Spiderman</option>
+      <option value="animal">Animal</option>
+    </select><br><br>
+
+    <label for="date">Select Date:</label><br>
+    <input type="date" id="date" name="date"><br><br>
+     
+    <label>Select Show Time(s):</label><br>
+    <input type="checkbox" id="show1" name="showtime" value="09:00 AM">
+    <label for="show1">09:00 AM</label><br>
+    <input type="checkbox" id="show2" name="showtime" value="12:00 PM">
+    <label for="show2">12:00 PM</label><br>
+    <input type="checkbox" id="show3" name="showtime" value="03:00 PM">
+    <label for="show3">03:00 PM</label><br>
+    <input type="checkbox" id="show4" name="showtime" value="06:00 PM">
+    <label for="show4">06:00 PM</label><br><br>
+
+    <label for="tickets">Number of Tickets:</label><br>
+    <input type="number" id="tickets" name="tickets" min="1" max="10"><br><br>
+
+    <label for="name">Your Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="email">Your Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="phone">Your Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}" title="Please enter a valid 10-digit phone number"><br><br>
+    <input type="checkbox" id="terms" name="terms" required>
+    <label for="terms">I accept the terms & conditions</label><br><br>
+    <details>
+    <summary>View Terms & Conditions</summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet enim eos voluptas aliquid vel facere praesentium aperiam soluta beatae, alias, eligendi voluptates sunt debitis. Expedita blanditiis magnam voluptates eius a.</p>
+    </details>
+    <br>
+    <br>
+
+    <input type="submit" value="Book Now">
+  </form>
+
+</body>
+</html>
+
+</body>
+</html>
