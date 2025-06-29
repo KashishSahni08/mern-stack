@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+</head>
+<body>
+    
+     <h1>Student Admission Form</h1>
+
+     <form>
+         
+        <label for="name">Student Name</label>
+        <input type="text" id="name" required minlength="3">
+        <br>
+        <br>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" required>
+        <br>
+        <br>
+
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" required>
+        <br>
+        <br>
+
+        <label for="">Gender</label>
+        <input type="radio"name="gender">Male
+        <input type="radio" name="gender">Female
+        <br>
+        <br>
+
+        <label for=""> Select Course</label>
+        <select>
+            <option>MERN Stack Development</option>
+            <option>Data Analytics</option>
+            <option>Data Science</option>
+            <option>Cyber Security</option>
+            <option>Data Structure</option>
+        </select>
+        <br>
+        <br>
+
+        <label for="">College Name</label>
+        <input type="text" list="college">
+        <datalist id="college">
+            <option>MGIMT</option>
+            <option>Integral University</option>
+            <option>Christian College</option> 
+            <option>ITM</option>
+            <option>MGCPS</option>
+        </datalist>
+        <br>
+        <br>
+
+        <label for="">Address</label>
+        <textarea rows="5" cols="20"></textarea>
+        <br>
+        <br>
+
+        <input type="checkbox">
+        <label for="">I accept Terms & Conditions</label>
+        <br>
+        <br>
+
+        <details>
+            <summary>View Terms & Conditions</summary>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab beatae,<mark> eaque adipisci est dolor nemo sit debitis!</mark> Unde 
+             quaeratomnis ratione a nulla, quo autem voluptate, neque dolor voluptas molestias.</p>
+        </details>
+        <br>
+        <br>
+        
+        <button type="submit">Submit</button>
+
+     </form>
+
+</body>
+</html>
