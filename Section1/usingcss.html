@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using CSS</title>
+
+
+
+    <style>
+        h1 {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        .myclass {
+            color: green;
+            text-align: center;
+            background-color: yellow;
+        }
+
+        #myid {
+            color: purple;
+            border: 2px solid purple;
+        }
+
+        .btn-class {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            transition-duration: 300ms;
+        }
+
+        button {
+            /* background-color: blue !important; */
+        }
+
+        #btn-id {
+            background-color: crimson;
+        }
+
+        .btn-class:hover{
+            transform: scale(1.1);
+        }
+
+        .btn-class:active{
+            background-color: red;
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <p style="color: red; font-size: 40px;">Inline CSS is used style individual element at once</p>
+
+    <h1>Internal CSS is used to style entire page once</h1>
+
+    <h1 class="myclass">Name Selector is used to select elements by thier tag name</h1>
+
+    <h2 class="myclass">Class selector is used to select elements by their class name</h2>
+
+    <h3 id="myid">Id Selector is used to select elements by their id name</h3>
+
+    <button style="background-color: rebeccapurple;" class="btn-class" id="btn-id">Submit</button>
+
+    <button class="btn btn-class">Nice</button>
+
+</body>
+
+</html>
