@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+
+    <style>
+        *{
+            font-family: Roboto;
+        }
+        .card{
+            /* border: 2px solid red; */
+            width: 20%;
+            border-radius: 10px;
+            padding: 30px;
+            box-sizing: border-box;
+            box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.588);
+            background-color: white;
+
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+           /* background-image: linear-gradient(0deg, rgb(240, 176, 176), rgb(198, 198, 253) );*/
+           background-image: url(https://tse4.mm.bing.net/th/id/OIP.MNdBnuVjma-hi-g5gDE4twHaEc?pid=Api&P=0&h=220);
+
+        }
+        .form-title{
+            text-align: center;
+            margin: 30px;
+        }
+        .text-input{
+            display: block;
+            width: 100%;
+            padding: 10px 5px;
+            box-sizing: border-box;
+            border-radius: 5px;
+            border: 1px solid black;
+            margin-bottom: 20px;
+            margin-top: 5px;
+        }
+        .submit-btn{
+            display: block;
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            background-color: blueviolet;
+            color: white;
+            margin-top: 30px;
+        }
+        .link{
+            color: blueviolet;
+            text-decoration: none;
+            display: block;
+        }
+        .forgot-link{
+            text-align: right;
+            margin-top: 20px;
+        }
+        .signup-link{
+            text-align: center;
+            margin-top: 30px;
+        }   
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2 class="form-title">Login Form</h2>
+        <form>
+            <label for ="">Email Address</label>
+            <input type="email" class="text-input">
+
+            <label for="">Password</label>
+            <input type="password" class="text-input">
+
+            <a href="" class="link forgot-link">Forgot Password?</a>
+           <button class="submit-btn">Submit</button>
+           <a href="" class="link signup-link">Not registered Yet? Signup Now</a>
+        </form>
+
+    </div>
+    
+</body>
+</html>
