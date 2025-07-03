@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<title>Message Page</title>
+</head>
+  <body class=" flex items-center justify-center min-h-screen">
+
+  <div class="relative">
+    <div class="absolute -top-9 -left-7 w-99 h-[395px] bg-gradient-to-br from-blue-200 to-green-700 rounded-2xl shadow-lg z-0"></div>
+
+    <div class="relative -top-16 left-0 translate-x-6 translate-y-20 z-10 w-99 h-[420px] bg-white rounded-2xl shadow-2xl/30 shadow-cyan-400/50 p-8">
+      <h2 class="text-lg font-semibold mb-4 ml-2">Your messages</h2>
+
+      <button class=" block w-full bg-[#1e1e80] text-white py-3 rounded-lg mb-6 flex items-center justify-center gap-2">
+        Compose
+  <i class="fa-solid fa-pen-to-square"></i>
+</button>
+      <div class="space-y-4">
+        <div class="flex items-start justify-between ">
+          <div class="flex items-center gap-3">
+            <div class="relative">
+              <img class="w-10 h-10 rounded-full object-cover" src="img1.jpg" alt="Rafel Jay">
+              <span class="absolute top-0 right-0 w-3 h-3 bg-green-400 border-2 border-white rounded-full"></span>
+            </div>
+            <div>
+              <p class="font-semibold">Rafel Jay</p>
+              <p class="text-sm text-gray-600">Hi there, how are you?</p>
+            </div>
+          </div>
+          <p class="text-sm text-gray-400">4 days ago</p>
+        </div>
+ 
+        <div class="flex items-start justify-between bg-gray-100 rounded-xl ">
+          <div class="flex items-center gap-3">
+            <div class="relative">
+              <img class="w-10 h-10 rounded-full object-cover" src="chatimg4.jpg" alt="Frank Johnson">
+              <span class="absolute top-0 right-0 w-3 h-3 bg-orange-400 border-2 border-white rounded-full"></span>
+            </div>
+            <div>
+              <p class="font-semibold">Frank Johnson</p>
+              <p class="text-sm text-gray-600">How was the trip?</p>
+            </div>
+          </div>
+          <p class="text-sm text-gray-400">5 days ago</p>
+        </div>
+
+        <div class="flex items-start justify-between ">
+          <div class="flex items-center gap-3">
+            <div class="relative">
+              <img class="w-10 h-10 rounded-full object-cover" src="chatimg3.jpg" alt="Ashley Pierce">
+              <span class="absolute top-0 right-0 w-3 h-3 bg-green-400 border-2 border-white rounded-full"></span>
+            </div>
+            <div>
+              <p class="font-semibold">Ashley Pierce</p>
+              <p class="text-sm text-gray-600">I hope you are well.</p>
+            </div>
+          </div>
+          <p class="text-sm text-gray-400">Mar 12, 2022</p>
+        </div>
+
+        <div class="flex items-start justify-between ">
+          <div class="flex items-center gap-3">
+            <div class="relative">
+              <img class="w-10 h-10 rounded-full object-cover" src="chatimg2.jpg" alt="Nancy Myer">
+              <span class="absolute top-0 right-0 w-3 h-3 bg-gray-400 border-2 border-white rounded-full"></span>
+            </div>
+            <div>
+              <p class="font-semibold">Nancy Myer</p>
+              <p class="text-sm text-gray-600">Thank you for answering.</p>
+            </div>
+          </div>
+          <p class="text-sm text-gray-400">Feb 3, 2022</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
